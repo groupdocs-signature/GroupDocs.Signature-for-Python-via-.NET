@@ -23,6 +23,9 @@ def run():
         options.top = 50
         options.page_number = 1
         options.password = "1234567890"
+        options.reason = "Sign"
+        options.contact = "JohnSmith"
+        options.location = "Office1"
 
         result = signature.sign(output_file_path, options)
 

@@ -22,8 +22,8 @@ def run():
         options.encode_type = gsd.BarcodeTypes.CODE128
         options.left = 50
         options.top = 150
-        options.width = 200
-        options.height = 50
+        options.width = 50
+        options.height = 25
 
         result = signature.sign(output_file_path, options)
 

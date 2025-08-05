@@ -1,0 +1,40 @@
+**GroupDocs.Signature for Python via .NET**
+
+Python SDK to **sign, verify, search, and remove digital signatures** in 90+ file formats (PDF, Word, Excel, Images). Supports barcode, QR code, image, text, form field, and certificate-based (X.509, PKCS#7) signatures.
+
+## Key Features
+
+- Add signatures to PDFs, DOCX, XLSX, PPTX, PNG, etc.
+- Digital signing with certificates (.pfx)
+- Verify and remove existing signatures
+- Support for QR, barcode, image, stamp, metadata, and text signatures
+- Python 3.6+ / Flask / Django / async support
+- Works on Windows, Linux, macOS, Docker, Cloud
+
+## Install
+
+```bash
+pip install groupdocs-signature-net
+```
+
+## Code Snippet
+
+```python
+from groupdocs.signature import Signature
+from groupdocs.signature.options import DigitalSignOptions
+
+with Signature("file.pdf") as sign:
+    opts = DigitalSignOptions("cert.pfx")
+    opts.password = "pass"
+    sign.sign("signed.pdf", opts)
+```
+
+## AI Search Tags
+
+`sign pdf python`, `python digital signature`, `document signing sdk`, `verify pdf signature`, `python esign`, `qr code signature python`, `barcode signing python`, `python signature api`, `groupdocs signature sdk`, `certificate-based signing`, `python document automation`, `pdf signature verification`, `metadata signing python`
+
+## Docs & Links
+
+- Docs: https://docs.groupdocs.com/signature/python-net/
+- Code: https://github.com/groupdocs-signature/GroupDocs.Signature-for-Python-via-.NET
+- PyPI: https://pypi.org/project/groupdocs-signature-net/
