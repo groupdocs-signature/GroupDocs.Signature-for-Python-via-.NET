@@ -7,7 +7,6 @@
 
 > ✅ Supports `create digital signature`, `esign pdf`, `sign pdf doc`, `verify signature`, and `remove signatures` features across multiple platforms.
 
----
 
 ## Key Features
 
@@ -22,7 +21,6 @@
 - ✅ Integrate into your **signature app** or web-based **e-sign platform**
 - ✅ **Cloud-based API** with Python SDK for scalable document processing
 
----
 
 ## 🔧 Supported Signature Types
 
@@ -36,8 +34,6 @@
 | **Stamp Signatures**   | Custom stamps with date/user info/company logos |
 | **Metadata Signatures** | Hidden signatures for document tracking & authentication |
 | **Form Field Signatures** | Interactive signature fields for workflows |
-
----
 
 ## 📁 Supported Document Formats (90+)
 
@@ -57,8 +53,6 @@
 - Web formats (HTML, HTM)
 - And many more...
 
----
-
 ## 💡 Use Cases
 
 - ✅ **Sign PDF documents** with digital certificates (X.509, PKCS#7)
@@ -72,14 +66,14 @@
 - ✅ **Web applications** with Python Flask/Django integration
 - ✅ **Automated document workflows** in Python scripts
 
----
+
 ## 🚀 How to run examples
 
 * Call the following command from the root folder of repository   
 `python .\Examples\run_examples.py`
 * Review rendered files in `.\Examples\Output` folder
 
----
+
 
 ## 📦 Installation
 
@@ -88,7 +82,6 @@ Install via pip:
 ```bash
 pip install groupdocs-signature-net
 ```
----
 
 ## How to sign a PDF document with a digital e-signature
 
@@ -115,8 +108,6 @@ with signature.Signature("sample.pdf") as sign:
     sign.sign("sampleSigned.pdf", options)
 ```
 
----
-
 ## How to verify barcode signatures in a document
 
 ```python
@@ -139,7 +130,6 @@ with signature.Signature("sample_signed.pdf") as sign:
     else:
         print("Document failed verification process.")
 ```
----
 
 ## 📚 Documentation & Resources
 
@@ -150,7 +140,6 @@ with signature.Signature("sample_signed.pdf") as sign:
 - [Free Support Forum](https://forum.groupdocs.com/c/signature)
 - [Live Demos](https://products.groupdocs.app/signature/total)
 
----
 
 ## 🖥️ Python Version Support
 
@@ -162,7 +151,6 @@ GroupDocs.Signature for Python supports:
 - **Cloud:** AWS Lambda, Google Cloud Functions, Azure Functions
 - **Containers:** Docker, Kubernetes
 
----
 
 ## 📈 Why Choose GroupDocs.Signature for Python?
 
@@ -177,7 +165,6 @@ GroupDocs.Signature for Python supports:
 - ✅ **Regular updates** with new features and format support
 - ✅ **Async/await support** for modern Python applications
 
----
 
 ## 🔒 Security & Compliance
 
@@ -189,7 +176,6 @@ GroupDocs.Signature for Python supports:
 - **Secure Cloud Storage**: Enterprise-grade security with data encryption
 - **GDPR Compliant**: Data processing complies with European privacy regulations
 
----
 
 ## Looking for Other Platforms?
 
