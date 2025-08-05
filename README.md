@@ -184,7 +184,6 @@ GroupDocs.Signature for Python supports:
 - 👉 [GroupDocs.Signature for Node.js](https://github.com/groupdocs-signature/GroupDocs.Signature-for-Node.js-via-Java)
 - 👉 [GroupDocs.Signature for PHP](https://github.com/groupdocs-signature/GroupDocs.Signature-for-Python-via-.NET)
 
----
 
 ## 🙌 Contribute
 
@@ -195,7 +194,6 @@ This repository contains **examples and demos** for GroupDocs.Signature for Pyth
 - Help improve documentation and examples
 - Share your integration experiences
 
----
 
 ## Support & Contact
 
@@ -203,8 +201,6 @@ This repository contains **examples and demos** for GroupDocs.Signature for Pyth
 - [Paid Support](https://helpdesk.groupdocs.com/) - Priority technical support
 - [Sales Inquiry](https://purchase.groupdocs.com/contact-sales) - Licensing questions
 - [Documentation](https://docs.groupdocs.com/signature/python-net/) - Complete guides
-
----
 
 <!--
 SEO Keywords:
@@ -215,7 +211,6 @@ python digital signature, python document signing, python e-signature, python pd
 
 This project is licensed under the [GroupDocs EULA](https://purchase.groupdocs.com/policies/license).
 
----
 
 **© 2025 GroupDocs. All rights reserved.**
 
