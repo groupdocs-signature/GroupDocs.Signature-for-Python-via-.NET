@@ -10,16 +10,16 @@
 
 ## Key Features
 
-- ✅ Add **electronic signatures** to **90+ document formats** including PDF, DOCX, XLSX, PPTX, PNG, TIFF, and more
-- ✅ Create signatures from **image, barcode, QR code, stamp, text, metadata, or form fields**
-- ✅ Support for **signature validation**, **verification**, and **removal**
-- ✅ **Search and remove** existing signatures from documents
-- ✅ Apply **multiple signatures** of different types to a single document
-- ✅ Built-in support for **digital certificates** (X.509, PKCS#7) for legally binding signatures
-- ✅ **Metadata signatures** for document tracking and authentication
-- ✅ **Form field signatures** for interactive document workflows
-- ✅ Integrate into your **signature app** or web-based **e-sign platform**
-- ✅ **Cloud-based API** with Python SDK for scalable document processing
+- Add **electronic signatures** to **90+ document formats** including PDF, DOCX, XLSX, PPTX, PNG, TIFF, and more
+- Create signatures from **image, barcode, QR code, stamp, text, metadata, or form fields**
+- Support for **signature validation**, **verification**, and **removal**
+- **Search and remove** existing signatures from documents
+- Apply **multiple signatures** of different types to a single document
+- Built-in support for **digital certificates** (X.509, PKCS#7) for legally binding signatures
+- **Metadata signatures** for document tracking and authentication
+- **Form field signatures** for interactive document workflows
+- Integrate into your **signature app** or web-based **e-sign platform**
+- **Cloud-based API** with Python SDK for scalable document processing
 
 
 ## 🔧 Supported Signature Types
@@ -55,16 +55,16 @@
 
 ## 💡 Use Cases
 
-- ✅ **Sign PDF documents** with digital certificates (X.509, PKCS#7)
-- ✅ **E-sign Word documents** with image signatures or typed names
-- ✅ **Add signatures to Excel spreadsheets** and CSV files
-- ✅ **Verify and validate e-signatures** for authenticity
-- ✅ **Search and remove** existing signatures from documents
-- ✅ **Metadata signatures** for document versioning and tracking
-- ✅ **Form field signatures** for interactive document workflows
-- ✅ **Batch processing** multiple documents with signatures
-- ✅ **Web applications** with Python Flask/Django integration
-- ✅ **Automated document workflows** in Python scripts
+- **Sign PDF documents** with digital certificates (X.509, PKCS#7)
+- **E-sign Word documents** with image signatures or typed names
+- **Add signatures to Excel spreadsheets** and CSV files
+- **Verify and validate e-signatures** for authenticity
+- **Search and remove** existing signatures from documents
+- **Metadata signatures** for document versioning and tracking
+- **Form field signatures** for interactive document workflows
+- **Batch processing** multiple documents with signatures
+- **Web applications** with Python Flask/Django integration
+- **Automated document workflows** in Python scripts
 
 
 ## 🚀 How to run examples
@@ -154,16 +154,16 @@ GroupDocs.Signature for Python supports:
 
 ## 📈 Why Choose GroupDocs.Signature for Python?
 
-- ✅ **Cloud-based API** with high availability and scalability
-- ✅ **No software installation** required - everything runs in the cloud
-- ✅ **RESTful API** with comprehensive Python SDK
-- ✅ **High-performance** signature processing for enterprise applications
-- ✅ **Memory-efficient** processing of large documents
-- ✅ **Thread-safe** operations for multi-threaded Python applications
-- ✅ **Comprehensive API** with 90+ supported document formats
-- ✅ **Easy integration** into existing Python signature applications
-- ✅ **Regular updates** with new features and format support
-- ✅ **Async/await support** for modern Python applications
+- **Cloud-based API** with high availability and scalability
+- **No software installation** required - everything runs in the cloud
+- **RESTful API** with comprehensive Python SDK
+- **High-performance** signature processing for enterprise applications
+- **Memory-efficient** processing of large documents
+- **Thread-safe** operations for multi-threaded Python applications
+- **Comprehensive API** with 90+ supported document formats
+- **Easy integration** into existing Python signature applications
+- **Regular updates** with new features and format support
+- **Async/await support** for modern Python applications
 
 
 ## 🔒 Security & Compliance
@@ -179,10 +179,10 @@ GroupDocs.Signature for Python supports:
 
 ## Looking for Other Platforms?
 
-- 👉 [GroupDocs.Signature for .NET](https://github.com/groupdocs-signature/GroupDocs.Signature-for-.NET)
-- 👉 [GroupDocs.Signature for Java](https://github.com/groupdocs-signature/GroupDocs.Signature-for-Java)
-- 👉 [GroupDocs.Signature for Node.js](https://github.com/groupdocs-signature/GroupDocs.Signature-for-Node.js-via-Java)
-- 👉 [GroupDocs.Signature for PHP](https://github.com/groupdocs-signature/GroupDocs.Signature-for-Python-via-.NET)
+- [GroupDocs.Signature for .NET](https://github.com/groupdocs-signature/GroupDocs.Signature-for-.NET)
+- [GroupDocs.Signature for Java](https://github.com/groupdocs-signature/GroupDocs.Signature-for-Java)
+- [GroupDocs.Signature for Node.js](https://github.com/groupdocs-signature/GroupDocs.Signature-for-Node.js-via-Java)
+- [GroupDocs.Signature for PHP](https://github.com/groupdocs-signature/GroupDocs.Signature-for-Python-via-.NET)
 
 
 ## 🙌 Contribute
