@@ -10,14 +10,14 @@
 
 ## Key Features
 
-- Add **electronic signatures** to **90+ document formats** including PDF, DOCX, XLSX, PPTX, PNG, TIFF, and more
-- Create signatures from **image, barcode, QR code, stamp, text, metadata, or form fields**
-- Support for **signature validation**, **verification**, and **removal**
-- **Search and remove** existing signatures from documents
-- Apply **multiple signatures** of different types to a single document
-- Built-in support for **digital certificates** (X.509, PKCS#7) for legally binding signatures
-- **Metadata signatures** for document tracking and authentication
-- **Form field signatures** for interactive document workflows
+- Add [**electronic signatures**](https://docs.groupdocs.com/signature/python-net/esign-document-with-barcode-signature/) to **90+ document formats** including PDF, DOCX, XLSX, PPTX, PNG, TIFF, and more
+- [Create signatures](https://docs.groupdocs.com/signature/python-net/esign-document-with-image-signature/) from **image, barcode, QR code, stamp, text, metadata, or form fields**
+- Support for **signature validation**, [**verification**](https://docs.groupdocs.com/signature/python-net/verify-barcode-signatures-in-the-document/), and [**removal**](https://docs.groupdocs.com/signature/python-net/delete-barcode-signatures-from-documents/)
+- [**Search and remove**](https://docs.groupdocs.com/signature/python-net/delete-barcode-signatures-from-documents/) existing signatures from documents
+- Apply [**multiple signatures**](https://docs.groupdocs.com/signature/python-net/esign-document-with-multiple-signatures/) of different types to a single document
+- Built-in support for [**digital certificates**](https://docs.groupdocs.com/signature/python-net/sign-document-with-digital-signature/#advanced-digital-signature-options) (X.509, PKCS#7) for legally binding signatures
+- [**Metadata signatures**](https://docs.groupdocs.com/signature/python-net/esign-document-with-metadata-signature/) for document tracking and authentication
+- [**Form field signatures**](https://docs.groupdocs.com/signature/python-net/esign-document-with-form-field-signature/) for interactive document workflows
 - Integrate into your **signature app** or web-based **e-sign platform**
 - **Cloud-based API** with Python SDK for scalable document processing
 
@@ -51,7 +51,7 @@
 - OpenDocument (ODT, ODS, ODP)
 - Text files (TXT, RTF, CSV)
 - Web formats (HTML, HTM)
-- And many more...
+- And many [more...](https://docs.groupdocs.com/signature/python-net/supported-file-formats/)
 
 ## 💡 Use Cases
 
