@@ -1,217 +1,103 @@
-# GroupDocs.Signature for Python
+# GroupDocs.Signature for Python via .NET - Code Examples
 
-![PyPI](https://img.shields.io/pypi/v/groupdocs-signature-cloud)
-![Python](https://img.shields.io/badge/Python-3.6+-informational)
+[![banner](https://raw.githubusercontent.com/groupdocs/groupdocs.github.io/master/img/banners/groupdocs-signature-python-net-banner.png)](https://releases.groupdocs.com/signature/python-net/)
 
-**Create, apply, and verify digital signatures** in documents with an advanced Python **e-signature API**. Add electronic, barcode, QR-code, image, text, metadata, and form field signatures to **90+ document formats** including PDFs, Word, Excel, Images, and more.
+[Product Page](https://products.groupdocs.com/signature/python-net/) | [Docs](https://docs.groupdocs.com/signature/python-net/) | [Demos](https://products.groupdocs.app/signature/family) | [API Reference](https://reference.groupdocs.com/signature/python-net/) | [Blog](https://blog.groupdocs.com/category/signature/) | [Search](https://search.groupdocs.com/) | [Free Support](https://forum.groupdocs.com/c/signature) | [Temporary License](https://purchase.groupdocs.com/temporary-license)
 
-> ✅ Supports `create digital signature`, `esign pdf`, `sign pdf doc`, `verify signature`, and `remove signatures` features across multiple platforms.
+[GroupDocs.Signature for Python via .NET](https://products.groupdocs.com/signature/python-net/) is an electronic signature API that adds, searches, verifies, updates and removes text, image, barcode, QR code, stamp, metadata, form-field and digital signatures in PDF, Word, Excel, PowerPoint, OpenDocument and image files.
 
+## Features
 
-## Key Features
+- **Many Signature Types**: Text, image, barcode, QR code, stamp, metadata, form-field and digital (certificate) signatures.
+- **Search, Verify, Update, Delete**: Find existing signatures, check them against criteria, move or change them, and remove them.
+- **Previews**: Render document pages and individual signatures to images through your own Python callbacks.
+- **Security**: Digital signatures with certificates, SHA-256 PDF signing, custom encryption for QR code and metadata signatures.
+- **Popular Formats**: PDF, Word, Excel, PowerPoint, OpenDocument and image files.
+- **On-Premise**: No cloud or internet connection required.
 
-- Add [**electronic signatures**](https://docs.groupdocs.com/signature/python-net/esign-document-with-barcode-signature/) to **90+ document formats** including PDF, DOCX, XLSX, PPTX, PNG, TIFF, and more
-- [Create signatures](https://docs.groupdocs.com/signature/python-net/esign-document-with-image-signature/) from **image, barcode, QR code, stamp, text, metadata, or form fields**
-- Support for **signature validation**, [**verification**](https://docs.groupdocs.com/signature/python-net/verify-barcode-signatures-in-the-document/), and [**removal**](https://docs.groupdocs.com/signature/python-net/delete-barcode-signatures-from-documents/)
-- [**Search and remove**](https://docs.groupdocs.com/signature/python-net/delete-barcode-signatures-from-documents/) existing signatures from documents
-- Apply [**multiple signatures**](https://docs.groupdocs.com/signature/python-net/esign-document-with-multiple-signatures/) of different types to a single document
-- Built-in support for [**digital certificates**](https://docs.groupdocs.com/signature/python-net/sign-document-with-digital-signature/#advanced-digital-signature-options) (X.509, PKCS#7) for legally binding signatures
-- [**Metadata signatures**](https://docs.groupdocs.com/signature/python-net/esign-document-with-metadata-signature/) for document tracking and authentication
-- [**Form field signatures**](https://docs.groupdocs.com/signature/python-net/esign-document-with-form-field-signature/) for interactive document workflows
-- Integrate into your **signature app** or web-based **e-sign platform**
-- **Cloud-based API** with Python SDK for scalable document processing
+## Supported File Formats
 
+GroupDocs.Signature for Python via .NET supports a wide range of file formats, including Word, Excel, PowerPoint, PDF, OpenDocument, Image, and many others. See the [full list of supported formats](https://docs.groupdocs.com/signature/python-net/supported-file-formats/) for details.
 
-## 🔧 Supported Signature Types
+## Get Started
 
-| Signature Type     | Description                                |
-|--------------------|--------------------------------------------|
-| **Digital Signatures** | X.509 certificate-based signatures for legal compliance |
-| **Image Signatures**   | Draw or upload images (PNG, JPEG, SVG, BMP)    |
-| **Text Signatures**    | Add custom text annotations with fonts & styles |
-| **QR-Code Signatures** | Generate QR codes with custom data/format   |
-| **Barcode Signatures** | Add/search/remove barcodes from documents         |
-| **Stamp Signatures**   | Custom stamps with date/user info/company logos |
-| **Metadata Signatures** | Hidden signatures for document tracking & authentication |
-| **Form Field Signatures** | Interactive signature fields for workflows |
+1. **Set Up Environment**: Ensure that [Python 3.6+](https://www.python.org/downloads/) is installed on your system.
 
-## 📁 Supported Document Formats (90+)
+2. **Get the Code**: Clone or download this repository.
 
-**Office Documents:**
-- Microsoft Word (DOC, DOCX, DOCM, DOT, DOTX, DOTM)
-- Excel (XLS, XLSX, XLSM, XLSB, XLT, XLTX, XLTM)
-- PowerPoint (PPT, PPTX, PPTM, PPS, PPSX)
-- Visio (VSD, VSDX, VSS, VSSX, VST, VSTX)
+   ```bash
+   git clone git@github.com:groupdocs-signature/GroupDocs.Signature-for-Python-via-.NET.git
+   ```
 
-**PDFs & Images:**
-- PDF (Portable Document Format)
-- Images (PNG, JPG, JPEG, BMP, TIFF, GIF, SVG, WEBP)
+3. **Navigate to the `Examples` Folder**
 
-**Other Formats:**
-- OpenDocument (ODT, ODS, ODP)
-- Text files (TXT, RTF, CSV)
-- Web formats (HTML, HTM)
-- And many [more...](https://docs.groupdocs.com/signature/python-net/supported-file-formats/)
+   ```bash
+   cd ./GroupDocs.Signature-for-Python-via-.NET/Examples
+   ```
 
-## 💡 Use Cases
+4. **Install Package**: install dependencies with pip:
 
-- **Sign PDF documents** with digital certificates (X.509, PKCS#7)
-- **E-sign Word documents** with image signatures or typed names
-- **Add signatures to Excel spreadsheets** and CSV files
-- **Verify and validate e-signatures** for authenticity
-- **Search and remove** existing signatures from documents
-- **Metadata signatures** for document versioning and tracking
-- **Form field signatures** for interactive document workflows
-- **Batch processing** multiple documents with signatures
-- **Web applications** with Python Flask/Django integration
-- **Automated document workflows** in Python scripts
+   ```bash
+   pip install -r requirements.txt
+   ```
 
+   Alternatively, download the platform-specific `.whl` file from the [GroupDocs Releases](https://releases.groupdocs.com/signature/python-net/) website and install it directly (adjust the filename to your platform — `win_amd64`, `manylinux*_x86_64`, `macosx_*_arm64`, `macosx_*_x86_64`):
 
-## 🚀 How to run examples
+   ```bash
+   pip install ./groupdocs_signature_net-26.10.0-py3-none-win_amd64.whl
+   ```
 
-* Call the following command from the root folder of repository   
-`python .\Examples\run_examples.py`
-* Review rendered files in `.\Examples\Output` folder
+5. **Configure License (Optional)**: `run_all_examples.py` applies a license automatically when the `GROUPDOCS_LIC_PATH` environment variable holds the absolute path of your `.lic` file.
 
+   With a license applied, examples run with the full feature set; without one, documents of more than two pages are refused, signed pages carry an evaluation line, and found signatures report masked values, so verification fails. Get a free 30-day [temporary license](https://purchase.groupdocs.com/temporary-license) for evaluation.
 
+6. **Run the Examples**: To run all the examples, execute the following command:
 
-## 📦 Installation
+   ```bash
+   python ./run_all_examples.py
+   ```
 
-Install via pip:
+   You can also run individual examples by navigating to the folder containing the example script and running it. Output files are placed in the same folder as the script file.
+
+## Run with Docker
+
+The repository ships a `Dockerfile` that builds a Linux image with Python 3.13, the system packages the examples need (`libicu-dev`, `libfontconfig1`, `fontconfig`, `libgdiplus`, `ttf-mscorefonts-installer`), and the `groupdocs-signature-net` package preinstalled.
 
 ```bash
-pip install groupdocs-signature-net
+# Build the image
+docker build -t signature-examples .
+
+# Run unlicensed (evaluation mode)
+docker run --rm signature-examples
+
+# Run with a license mounted from the host
+docker run --rm \
+    -v /path/to/license:/lic:ro \
+    -e GROUPDOCS_LIC_PATH=/lic/your-license.lic \
+    signature-examples
 ```
 
-## How to sign a PDF document with a digital e-signature
+On Windows with Git Bash, set `export MSYS_NO_PATHCONV=1` before `docker run` to prevent MSYS from rewriting the mounted license path.
 
-```python
-import groupdocs.signature as signature
-from groupdocs.signature.options import DigitalSignOptions
+## AI agents and LLM integration
 
-# Initialize signature
-with signature.Signature("sample.pdf") as sign:
-    # Create digital signature options
-    options = DigitalSignOptions("certificate.pfx")
-    
-    # Set certificate password
-    options.password = "1234567890"
-    
-    # Optional: setup image file path
-    options.image_file_path = "sample.jpg"
-    
-    # Set signature position
-    options.left = 100
-    options.top = 100
-    
-    # Sign document
-    sign.sign("sampleSigned.pdf", options)
-```
+The `groupdocs-signature-net` wheel ships a bundled `AGENTS.md` reference for AI coding assistants (Claude Code, Cursor, GitHub Copilot in agent mode, and similar). Once the package is installed, the reference is discovered automatically at `groupdocs/signature/AGENTS.md` — it covers canonical imports, quick-start usage, licensing, the API surface table, and troubleshooting.
 
-## How to verify barcode signatures in a document
+For on-demand documentation lookups, combine the bundled `AGENTS.md` with the GroupDocs MCP server at `https://docs.groupdocs.com/mcp`. See the [AI agents and LLM integration](https://github.com/groupdocs-signature/GroupDocs.Signature-for-Python-via-.NET/blob/master/AGENTS.md) page for the per-tool setup snippets.
 
-```python
-import groupdocs.signature as signature
-from groupdocs.signature.options import BarcodeVerifyOptions
+## Continuous integration
 
-# Initialize signature
-with signature.Signature("sample_signed.pdf") as sign:
-    # Create verification options
-    options = BarcodeVerifyOptions()
-    options.text = "123456789"
-    options.match_type = signature.TextMatchType.Contains
-    options.all_pages = True  # verify on all pages
-    
-    # Verify signatures
-    result = sign.verify(options)
-    
-    if result.is_valid:
-        print("Document was verified successfully!")
-    else:
-        print("Document failed verification process.")
-```
+The `.github/workflows/` directory contains the CI matrix that runs the full example suite on every push. The matrix is reproducible locally via the `Dockerfile` above.
 
-## 📚 Documentation & Resources
+## More Resources
 
-- [Official Documentation](https://docs.groupdocs.com/signature/python-net/)
-- [API Reference](https://reference.groupdocs.com/signature/python-net/)
-- [Code Examples](https://github.com/groupdocs-signature/GroupDocs.Signature-for-Python-via-.NET?tab=readme-ov-file)
-- [PyPI Package](https://pypi.org/project/groupdocs-signature-net/)
-- [Free Support Forum](https://forum.groupdocs.com/c/signature)
-- [Live Demos](https://products.groupdocs.app/signature/total)
+Find additional details and examples in the [GroupDocs.Signature for Python via .NET documentation](https://docs.groupdocs.com/signature/python-net/).
 
+We also offer **GroupDocs.Signature** packages for other platforms:
+* [**GroupDocs.Signature for .NET**](https://products.groupdocs.com/signature/net/)
+* [**GroupDocs.Signature for Java**](https://products.groupdocs.com/signature/java/)
+* [**GroupDocs.Signature for Node.js via Java**](https://products.groupdocs.com/signature/nodejs-java/)
 
-## 🖥️ Python Version Support
+---
 
-GroupDocs.Signature for Python supports:
-
-- **Python 3.6+** (including Python 3.7, 3.8, 3.9, 3.10, 3.11, 3.12)
-- **Frameworks:** Django, Flask, FastAPI, Pyramid
-- **Platforms:** Windows, Linux, macOS
-- **Cloud:** AWS Lambda, Google Cloud Functions, Azure Functions
-- **Containers:** Docker, Kubernetes
-
-
-## 📈 Why Choose GroupDocs.Signature for Python?
-
-- **Cloud-based API** with high availability and scalability
-- **No software installation** required - everything runs in the cloud
-- **RESTful API** with comprehensive Python SDK
-- **High-performance** signature processing for enterprise applications
-- **Memory-efficient** processing of large documents
-- **Thread-safe** operations for multi-threaded Python applications
-- **Comprehensive API** with 90+ supported document formats
-- **Easy integration** into existing Python signature applications
-- **Regular updates** with new features and format support
-- **Async/await support** for modern Python applications
-
-
-## 🔒 Security & Compliance
-
-- **Digital Certificate Support**: RSA, DSA, ECDSA algorithms
-- **Standards Compliance**: PKCS#7, X.509, PDF/A compatibility
-- **Signature Validation**: Timestamp verification and certificate chain validation
-- **Legal Compliance**: Suitable for legally binding digital signatures worldwide
-- **Audit Trail**: Complete signature history and document integrity verification
-- **Secure Cloud Storage**: Enterprise-grade security with data encryption
-- **GDPR Compliant**: Data processing complies with European privacy regulations
-
-
-## Looking for Other Platforms?
-
-- [GroupDocs.Signature for .NET](https://github.com/groupdocs-signature/GroupDocs.Signature-for-.NET)
-- [GroupDocs.Signature for Java](https://github.com/groupdocs-signature/GroupDocs.Signature-for-Java)
-- [GroupDocs.Signature for Node.js](https://github.com/groupdocs-signature/GroupDocs.Signature-for-Node.js-via-Java)
-- [GroupDocs.Signature for PHP](https://github.com/groupdocs-signature/GroupDocs.Signature-for-Python-via-.NET)
-
-
-## 🙌 Contribute
-
-This repository contains **examples and demos** for GroupDocs.Signature for Python. We welcome contributions and feedback! 
-
-- [Report Issues](https://github.com/groupdocs-signature-cloud/groupdocs-signature-cloud-python/issues)
-- Fork the repo and submit pull requests with improvements
-- Help improve documentation and examples
-- Share your integration experiences
-
-
-## Support & Contact
-
-- [Free Support Forum](https://forum.groupdocs.com/c/signature) - Community help
-- [Paid Support](https://helpdesk.groupdocs.com/) - Priority technical support
-- [Sales Inquiry](https://purchase.groupdocs.com/contact-sales) - Licensing questions
-- [Documentation](https://docs.groupdocs.com/signature/python-net/) - Complete guides
-
-<!--
-SEO Keywords:
-python digital signature, python document signing, python e-signature, python pdf signature, electronic signature python, digital signature api python, sign pdf python, document signature python, python signature library, esign python, pdf signing python, python barcode signature, python qr code signature, python image signature, verify signature python, remove signature python, python signature verification, django signature, flask signature, python signature app, signature api python, python document automation, electronic signature sdk python, python signature integration
--->
-
-## 📜 License
-
-This project is licensed under the [GroupDocs EULA](https://purchase.groupdocs.com/policies/license).
-
-
-**© 2025 GroupDocs. All rights reserved.**
-
-*Transform your Python applications with powerful electronic signature capabilities. Start your free trial today!*
+[Product Page](https://products.groupdocs.com/signature/python-net/) | [Docs](https://docs.groupdocs.com/signature/python-net/) | [Demos](https://products.groupdocs.app/signature/family) | [API Reference](https://reference.groupdocs.com/signature/python-net/) | [Blog](https://blog.groupdocs.com/category/signature/) | [Search](https://search.groupdocs.com/) | [Free Support](https://forum.groupdocs.com/c/signature) | [Temporary License](https://purchase.groupdocs.com/temporary-license)

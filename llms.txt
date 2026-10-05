@@ -1,6 +1,6 @@
 # GroupDocs.Signature for Python via .NET
 
-Python SDK to **sign, verify, search, and remove digital signatures** in 90+ file formats (PDF, Word, Excel, Images). Supports barcode, QR code, image, text, form field, and certificate-based (X.509, PKCS#7) signatures.
+Python SDK to **sign, verify, search, and remove digital signatures** in 60+ file formats (PDF, Word, Excel, PowerPoint, OpenDocument, images). Supports barcode, QR code, image, text, form field, and certificate-based (X.509, PKCS#7) signatures.
 
 ## Key Features
 
@@ -8,7 +8,7 @@ Python SDK to **sign, verify, search, and remove digital signatures** in 90+ fil
 - Digital signing with certificates (.pfx)
 - Verify and remove existing signatures
 - Support for QR, barcode, image, stamp, metadata, and text signatures
-- Python 3.6+ / Flask / Django / async support
+- Python 3.5 to 3.14, in any application (scripts, Flask, Django)
 - Works on Windows, Linux, macOS, Docker, Cloud
 
 ## Install
