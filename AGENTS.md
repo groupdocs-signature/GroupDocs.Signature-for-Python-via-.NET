@@ -3,7 +3,7 @@
 
 > Instructions for AI agents working with this package.
 
-Sign documents with text, image, QR code, barcode, and digital signatures.
+Add, search, verify, update and delete text, image, digital, barcode, QR code, stamp, form-field and metadata signatures in PDF, Word, Excel, PowerPoint, OpenDocument and image files (40+ formats).
 
 ## Install
 
@@ -207,7 +207,7 @@ The wheel tags state the OS floors (`manylinux_2_27_x86_64`, `macosx_12_0_x86_64
 
 ## Troubleshooting
 
-**`The type initializer for 'Gdip' threw an exception` / `DllNotFoundException: libgdiplus`** -- install libgdiplus: `sudo apt install libgdiplus` (Linux) / `brew install mono-libgdiplus` (macOS)
+**`The type initializer for 'Gdip' threw an exception` / `DllNotFoundException: libgdiplus` while signing** (Linux/macOS) -- install libgdiplus: `sudo apt install libgdiplus` (Linux) / `brew install mono-libgdiplus` (macOS). Only the features listed under Platform Requirements need it; `import` and the other signatures work without it
 
 **`Font Times New Roman was not found` / `Font Arial was not found`** -- install the Microsoft core fonts: `sudo apt install ttf-mscorefonts-installer fontconfig && sudo fc-cache -f` (Debian: enable `contrib`)
 
@@ -217,7 +217,7 @@ The wheel tags state the OS floors (`manylinux_2_27_x86_64`, `macosx_12_0_x86_64
 
 **`DllNotFoundException: libSkiaSharp`** -- stale system copy conflicts with bundled version. Rename it: `sudo mv /usr/local/lib/libSkiaSharp.dylib /usr/local/lib/libSkiaSharp.dylib.bak`
 
-**`DOTNET_SYSTEM_GLOBALIZATION_INVARIANT` errors** -- do NOT set this. Install ICU: `sudo apt install libicu-dev`
+**The process aborts on first use with `Couldn't find a valid ICU package`** (Linux; exit code 134, no Python exception) -- install ICU: `sudo apt install libicu-dev`, and do NOT set `DOTNET_SYSTEM_GLOBALIZATION_INVARIANT`
 
 **`TypeLoadException`** -- reinstall: `pip install --force-reinstall groupdocs-signature-net`
 

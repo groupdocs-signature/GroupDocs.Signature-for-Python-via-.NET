@@ -1,15 +1,17 @@
-# GroupDocs.Signature for Python via .NET
+# GroupDocs.Signature for Python via .NET - examples
 
-Python SDK to **sign, verify, search, and remove digital signatures** in 60+ file formats (PDF, Word, Excel, PowerPoint, OpenDocument, images). Supports barcode, QR code, image, text, form field, and certificate-based (X.509, PKCS#7) signatures.
+> On-premise SDK examples. Formats: 40+ (PDF, Word, Excel, PowerPoint, OpenDocument, images).
+
+Python SDK that adds, searches, verifies, updates and deletes electronic signatures: text, image, digital (X.509 certificates, .pfx), barcode, QR code, stamp, form-field and metadata signatures.
 
 ## Key Features
 
-- Add signatures to PDFs, DOCX, XLSX, PPTX, PNG, etc.
-- Digital signing with certificates (.pfx)
-- Verify and remove existing signatures
-- Support for QR, barcode, image, stamp, metadata, and text signatures
-- Python 3.5 to 3.14, in any application (scripts, Flask, Django)
-- Works on Windows, Linux, macOS, Docker, Cloud
+- Sign PDF, DOCX, XLSX, PPTX, PNG and other files; several signatures in one call
+- Digital signing with certificates (.pfx); PDF signatures use SHA-256 and verify cryptographically
+- Search, verify, update and delete existing signatures
+- Page and signature previews through Python callbacks
+- Python 3.5 to 3.14 (the examples use f-strings and need 3.6+), in scripts, Flask or Django apps
+- Runs on Windows, Linux and macOS, in Docker, and on cloud VMs and containers; no Office or Acrobat needed
 
 ## Install
 
@@ -23,10 +25,10 @@ pip install groupdocs-signature-net
 from groupdocs.signature import Signature
 from groupdocs.signature.options import DigitalSignOptions
 
-with Signature("file.pdf") as sign:
-    opts = DigitalSignOptions("cert.pfx")
-    opts.password = "pass"
-    sign.sign("signed.pdf", opts)
+with Signature("sample.pdf") as signature:
+    options = DigitalSignOptions("certificate.pfx")
+    options.password = "1234567890"
+    signature.sign("signed.pdf", options)
 ```
 
 ## AI Search Tags
@@ -36,5 +38,11 @@ with Signature("file.pdf") as sign:
 ## Docs & Links
 
 - Docs: https://docs.groupdocs.com/signature/python-net/
-- Code: https://github.com/groupdocs-signature/GroupDocs.Signature-for-Python-via-.NET
+- Formats: https://docs.groupdocs.com/signature/python-net/supported-file-formats/
 - PyPI: https://pypi.org/project/groupdocs-signature-net/
+- API reference: https://reference.groupdocs.com/signature/python-net/
+- Releases: https://releases.groupdocs.com/signature/python-net/
+- Agent guide: AGENTS.md (also shipped in the wheel as groupdocs/signature/AGENTS.md)
+- Full docs as text: https://docs.groupdocs.com/signature/python-net/llms-full.txt
+- Code: https://github.com/groupdocs-signature/GroupDocs.Signature-for-Python-via-.NET
+- MCP (link only): docs server https://docs.groupdocs.com/mcp; signing server https://docs.groupdocs.com/signature/mcp/

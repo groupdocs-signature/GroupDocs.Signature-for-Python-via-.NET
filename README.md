@@ -21,7 +21,7 @@ GroupDocs.Signature for Python via .NET supports a wide range of file formats, i
 
 ## Get Started
 
-1. **Set Up Environment**: Ensure that [Python 3.6+](https://www.python.org/downloads/) is installed on your system.
+1. **Set Up Environment**: Ensure that [Python 3.6+](https://www.python.org/downloads/) is installed on your system. The examples use f-strings, which need 3.6; the `groupdocs-signature-net` package itself supports Python 3.5 - 3.14.
 
 2. **Get the Code**: Clone or download this repository.
 
@@ -83,7 +83,7 @@ On Windows with Git Bash, set `export MSYS_NO_PATHCONV=1` before `docker run` to
 
 The `groupdocs-signature-net` wheel ships a bundled `AGENTS.md` reference for AI coding assistants (Claude Code, Cursor, GitHub Copilot in agent mode, and similar). Once the package is installed, the reference is discovered automatically at `groupdocs/signature/AGENTS.md` — it covers canonical imports, quick-start usage, licensing, the API surface table, and troubleshooting.
 
-For on-demand documentation lookups, combine the bundled `AGENTS.md` with the GroupDocs MCP server at `https://docs.groupdocs.com/mcp`. See the [AI agents and LLM integration](https://github.com/groupdocs-signature/GroupDocs.Signature-for-Python-via-.NET/blob/master/AGENTS.md) page for the per-tool setup snippets.
+For on-demand documentation lookups, combine the bundled `AGENTS.md` with the GroupDocs MCP server at `https://docs.groupdocs.com/mcp`. See the [AI agents and LLM integration](https://docs.groupdocs.com/signature/python-net/agents-and-llm-integration/) page for the per-tool setup snippets. When the agent itself should sign or verify documents, use the [GroupDocs.Signature MCP server](https://docs.groupdocs.com/signature/mcp/).
 
 ## Continuous integration
 
