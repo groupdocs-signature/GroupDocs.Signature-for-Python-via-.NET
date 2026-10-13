@@ -41,7 +41,7 @@ GroupDocs.Signature for Python via .NET supports a wide range of file formats, i
    pip install -r requirements.txt
    ```
 
-   Alternatively, download the platform-specific `.whl` file from the [GroupDocs Releases](https://releases.groupdocs.com/signature/python-net/) website and install it directly (adjust the filename to your platform — `win_amd64`, `manylinux*_x86_64`, `macosx_*_arm64`, `macosx_*_x86_64`):
+   Alternatively, download the platform-specific `.whl` file from the [GroupDocs Releases](https://releases.groupdocs.com/signature/python-net/) website and install it directly (adjust the filename to your platform: `win_amd64`, `manylinux*_x86_64`, `macosx_*_arm64`, `macosx_*_x86_64`):
 
    ```bash
    pip install ./groupdocs_signature_net-26.10.0-py3-none-win_amd64.whl
@@ -81,7 +81,7 @@ On Windows with Git Bash, set `export MSYS_NO_PATHCONV=1` before `docker run` to
 
 ## AI agents and LLM integration
 
-The `groupdocs-signature-net` wheel ships a bundled `AGENTS.md` reference for AI coding assistants (Claude Code, Cursor, GitHub Copilot in agent mode, and similar). Once the package is installed, the reference is discovered automatically at `groupdocs/signature/AGENTS.md` — it covers canonical imports, quick-start usage, licensing, the API surface table, and troubleshooting.
+The `groupdocs-signature-net` wheel ships a bundled `AGENTS.md` reference for AI coding assistants (Claude Code, Cursor, GitHub Copilot in agent mode, and similar). Once the package is installed, the reference is discovered automatically at `groupdocs/signature/AGENTS.md`; it covers canonical imports, quick-start usage, licensing, the API surface table, and troubleshooting.
 
 For on-demand documentation lookups, combine the bundled `AGENTS.md` with the GroupDocs MCP server at `https://docs.groupdocs.com/mcp`. See the [AI agents and LLM integration](https://docs.groupdocs.com/signature/python-net/agents-and-llm-integration/) page for the per-tool setup snippets. When the agent itself should sign or verify documents, use the [GroupDocs.Signature MCP server](https://docs.groupdocs.com/signature/mcp/).
 
